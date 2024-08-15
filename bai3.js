@@ -1,11 +1,11 @@
-getPersonInfo = (obj) => {
-  return (newString = `${obj.name} is ${obj.age} and lives in ${obj.city}`);
+const getPersonInfo = (person) => {
+  return `${person.name} is ${person.age} and lives in ${person.city}`;
 };
 
-const obj = {
+const personInfo = {
   name: "Phan Quí Xuân",
   age: 21,
-  city: "Quang Nam",
+  city: "Quảng Nam",
 };
 
-console.log(getPersonInfo(obj));
+console.log(getPersonInfo(personInfo));
