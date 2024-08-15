@@ -1,5 +1,5 @@
 function gradeCalculator(point) {
-  if (point < 0) {
+  if (point < 0 || 100) {
     return;
   }
   if (point <= 25) return "D";
