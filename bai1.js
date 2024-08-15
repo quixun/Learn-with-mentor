@@ -1,7 +1,7 @@
-function IsEven(number) {
-    return number%2 === 0 ? true : false
+function isEven(number) {
+    return number % 2 === 0
 }
 
-console.log(IsEven(2));
-console.log(IsEven(1));
+console.log(isEven(2));
+console.log(isEven(1));
  
