@@ -1,11 +1,7 @@
 const mapArray = (arr, callbackFunction) => {
-  return callbackFunction(arr);
+  return arr.map((item) => callbackFunction(item));
 };
 
-const array = [1, 2, 3, 4, 5, 6];
+const array = [1, 2, 3];
 
-console.log(
-  mapArray(array, (arr) => {
-    return arr.map((item) => item * 2 );
-  })
-);
+console.log(mapArray(array, (item) => item * 2));
