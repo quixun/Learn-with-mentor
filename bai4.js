@@ -1,5 +1,10 @@
 function reverseString(string) {
-  return string.split("").reverse().join("");
+  var oldString = string.split("");
+  var newString = [];
+  for (let i = oldString.length; i >= 0; i--) {
+    newString.push(oldString[i]);
+  }
+  return newString.join("");
 }
 
-console.log(reverseString("abc"));
+console.log(reverseString("xuan"));
