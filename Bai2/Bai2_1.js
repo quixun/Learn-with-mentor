@@ -5,7 +5,7 @@
     + Output: [[1, 2, 3], [4, 5, 6], [7, 8]]
     
 */
-const dividedArray = (arr, chunkSize) => {
+module.exports = dividedArray = (arr, chunkSize) => {
   const arrLength = arr.length;
   const newArr = [];
   for (let i = 0; i < arrLength; i = i + chunkSize) {
@@ -14,5 +14,3 @@ const dividedArray = (arr, chunkSize) => {
   }
   return newArr;
 };
-
-console.log(dividedArray([1, 2, 3, 4, 5, 6, 7, 8], 3));
