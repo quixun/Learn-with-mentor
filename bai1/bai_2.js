@@ -1,4 +1,4 @@
-const sumArray = (arr) => {
+module.exports = sumArray = (arr) => {
   var sum = 0;
   const arrLength = arr.length;
   for (let i = 0; i < arrLength; i++) {
@@ -6,4 +6,4 @@ const sumArray = (arr) => {
   }
   return sum;
 };
-console.log(sumArray([1, 2, 3, 4, 5]));
+
