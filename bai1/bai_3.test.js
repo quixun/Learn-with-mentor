@@ -6,6 +6,8 @@ const personInfo = {
   city: "Quảng Nam",
 };
 
-test('display info of a person',() => {
-    expect(getPersonInfo(personInfo)).toEqual('Phan Quí Xuân is 21 and lives in Quảng Nam')
-})
+test("getPersonInfo should display information of person properly", () => {
+  expect(getPersonInfo(personInfo)).toEqual(
+    "Phan Quí Xuân is 21 and lives in Quảng Nam"
+  );
+});

@@ -1,5 +1,5 @@
-const reverseString = require('./bai_4.js')
+const reverseString = require("./bai_4.js");
 
-test('revere a string',() => {
-    expect(reverseString('hello')).toEqual('olleh')
-})
+test("reverseString should return olleh when input is hello", () => {
+  expect(reverseString("hello")).toEqual("olleh");
+});
