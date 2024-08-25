@@ -1,6 +1,6 @@
 const isEven = require("./bai_1.js");
 
-test("isEven should return properly value", () => {
+test("isEven should return true with even number", () => {
   expect(isEven(2)).toEqual(true);
 });
 
