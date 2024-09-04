@@ -1,6 +1,3 @@
-function isEven(number) {
+module.exports = function isEven(number) {
   return number % 2 === 0;
 }
-
-console.log(isEven(2));
-console.log(isEven(1));

@@ -1,4 +1,4 @@
-function gradeCalculator(point) {
+module.exports = function gradeCalculator(point) {
   if (point < 0 || point > 100) {
     return;
   }
@@ -8,4 +8,3 @@ function gradeCalculator(point) {
   if (point > 75 && point <= 100) return "A";
 }
 
-console.log(gradeCalculator(Math.floor(Math.random() * 100)));
